@@ -695,12 +695,26 @@ padding: 5px;
 /*End Contact*/
 
 /*start footer*/
-footer {
-    background: #000;
-    color: #FFF;
-    padding-bottom: 10px;
-    padding-top: 10px
+.footer {
+    background-color: #191E22;
+    color:#6A6E71;
+    padding: 20px 0;
+    text-align: center;
 }
+
+.footer ul{
+    list-style: hebrew;
+    padding-left: 0;
+}
+
+.footer ul li{
+    display: inline-block;
+}
+
+.footer ul li img{
+    width: 24px ;
+}
+
 /*end footer*/
 
 @media(max-width: 750px){
